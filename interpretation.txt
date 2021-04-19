@@ -1,0 +1,57 @@
+Run k-means using 3 clusters on the 1953 and 2008 datasets seperately. What do you see?
+Take not of how the clusters change from 1953 to 2008. you will need to pay attention not 
+only to which countries are in clusters together but also to the Life expectancy and Birth Rate
+for those clusters.
+
+Answer:
+
+Concerning the 1953 data it showed that the clusters were organised according to a pattern of
+a relationship of the higher the  birth rate the lower the life expectency. For instance I run the code 
+numerous times and here is an example of  the clusters I picked up although the outer fringes are few and thus a number such as 25
+is a relative outlier in range 14 - 25:
+
+Iteration  ----> Birth-Rate in the the range of 14 - 25 --------------- Life-Expectancy in the range of
+                                                                                                                          59 to 73
+                 -----> Birth-Rate in the range of 23 - 41 -------------------- Life -Expectancy 53 in the range of 53
+                                                                                                                          to 72
+                 -----> Birth-Rate in the range of 30 - 55 -------------------- Life-Expectancy 28 - 53
+
+Generally it also seemed that the outer fringes of the clusters (the numberss) were more likely to move to 
+different clusters while those nearest to the centre of the clusters were not very likely to move to other
+clusters.
+
+For the 2008 data it showed inter alia that a higher birth -rate did show lower life - expectancy. Other patterns that emerge
+is for example that many countries now had a lower birth rate compred to 1953. In general this was true across the spectrum
+with counries such as Australia recording a low of 9. Together with this it also seems that life expectancy of improved in many countries. In
+1953 Australia had a life expectancy of about nearly 70 and in 2008 it improved to 81. Many countries improved from the 60s anf 70s range to over 80.
+Another example of the iteration and patterns I picked up:
+
+Iteration: -------> Birth-Rate in the range of 9 - 35 ------------------Life Expectancy in the range of 66 to 82
+                 -------> Birth-Rate in the range of 35- 46 ------------------Life Expectancy in the range of 46 to 64
+                 -------> Birth-Rate in the range of 20 - 37 ------------------Life Expectancy in the range of 47 to 67
+
+Next, run the algorithm with for clusters on dataBoth.csv. Note any observations in you text file. Which countries are moving up clusters.
+How does "(2008) South Africa" compare to "(1953) United States"? Are there any 2008 countries that are in a cluster that is made 
+up mostly of 1953 countries? Try and explain why. Are there any 1953 countries that are in a cluster that is made of mostly 2008 countries?
+Try and explain why in your textfile.
+
+Answer:
+
+Generally, compared it still seems that higher birth-rate means lower life expectancy compared to lower birth-rate countries which have a higher 
+general life expectancy. Examples of countries that have improved in terms of moving into a more lower-birth-rate/higher life expectancy cluster
+seems to be Kenya who are in the 29 -49 (Birth-Rate)/41 - 58(Life-Expectancy) cluster for 2008 compare to the 50 -54(birth-rate)/35 - 53(Life-Expectancy)
+cluster. Kenya had a birth-rate of 51 and a life-expectancy of 42 in 1953 compared to a birth rate of 39 and life expectancy of 55 in 2008. Turkey is another such example
+of moving to a better position. South Africa had a higher birth-rate and lower life expextancy in 1953 (43 and 45) compared to the United States in 2008 (24 and 68). Since 
+the birth-rate are closing with South Africa halving its birth rate between 1953 and 2008. America also almost halved it birth-rate during that time from 1953 to 2008 but South Africa
+had a more radical decline. In terms of life expectancy South Africa improved from 45 to 53 (1953 - 2008) while America improved from 68 to 77 (1953 - 2008). Many countries in the "1953
+only cluster" have moved to a cluster where 1953 countries are more than the 2008 countries with regards to the cluster. The reason for this seems to be a drastic decline in birth rate and higher life expectancy.
+Examples here are Angola and Uganda. There is also "1953" countries in a cluster dominated by 2008 countries. The reason for this can possibly be birth rates that were low in 1953 compared to 
+most other countries and life expentancy which was relatively high in 1953 compared to other countries. So what happened  was that the tendecies for many countries such as Finland and Norway 
+stayed the same in the bigger picture and that is why a country such as Finland is represented twice in the cluster 1953 and 2008.
+
+
+
+
+
+
+                 
